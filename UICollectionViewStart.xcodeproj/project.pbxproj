@@ -10,9 +10,10 @@
 		AC7CD21D229D1C8100AC9966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CD21C229D1C8100AC9966 /* AppDelegate.swift */; };
 		AC7CD21F229D1C8100AC9966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CD21E229D1C8100AC9966 /* ViewController.swift */; };
 		AC7CD222229D1C8100AC9966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7CD220229D1C8100AC9966 /* Main.storyboard */; };
-		AC7CD224229D1C8400AC9966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7CD223229D1C8400AC9966 /* Assets.xcassets */; };
 		AC7CD227229D1C8400AC9966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7CD225229D1C8400AC9966 /* LaunchScreen.storyboard */; };
 		AC7CD22F229D1D7E00AC9966 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CD22E229D1D7E00AC9966 /* MyCollectionViewCell.swift */; };
+		AC7CD231229D1EBB00AC9966 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CD230229D1EBB00AC9966 /* Menu.swift */; };
+		AC7CD233229D259E00AC9966 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7CD232229D259E00AC9966 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		AC7CD21C229D1C8100AC9966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC7CD21E229D1C8100AC9966 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC7CD221229D1C8100AC9966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC7CD223229D1C8400AC9966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC7CD226229D1C8400AC9966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC7CD228229D1C8400AC9966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC7CD22E229D1D7E00AC9966 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC7CD230229D1EBB00AC9966 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		AC7CD232229D259E00AC9966 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 			children = (
 				AC7CD21C229D1C8100AC9966 /* AppDelegate.swift */,
 				AC7CD21E229D1C8100AC9966 /* ViewController.swift */,
+				AC7CD230229D1EBB00AC9966 /* Menu.swift */,
 				AC7CD220229D1C8100AC9966 /* Main.storyboard */,
+				AC7CD232229D259E00AC9966 /* Images.xcassets */,
 				AC7CD22E229D1D7E00AC9966 /* MyCollectionViewCell.swift */,
-				AC7CD223229D1C8400AC9966 /* Assets.xcassets */,
 				AC7CD225229D1C8400AC9966 /* LaunchScreen.storyboard */,
 				AC7CD228229D1C8400AC9966 /* Info.plist */,
 			);
@@ -125,8 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7CD233229D259E00AC9966 /* Images.xcassets in Resources */,
 				AC7CD227229D1C8400AC9966 /* LaunchScreen.storyboard in Resources */,
-				AC7CD224229D1C8400AC9966 /* Assets.xcassets in Resources */,
 				AC7CD222229D1C8100AC9966 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +143,7 @@
 			files = (
 				AC7CD21F229D1C8100AC9966 /* ViewController.swift in Sources */,
 				AC7CD21D229D1C8100AC9966 /* AppDelegate.swift in Sources */,
+				AC7CD231229D1EBB00AC9966 /* Menu.swift in Sources */,
 				AC7CD22F229D1D7E00AC9966 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
