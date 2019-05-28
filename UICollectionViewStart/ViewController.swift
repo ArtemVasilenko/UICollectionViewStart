@@ -24,6 +24,15 @@ class ViewController: UIViewController {
         self.myCollectionView.dataSource = self
         self.myCollectionView.delegate = self
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "moveToDetail" {
+            if let vc = segue.destination as? DetailViewController {
+                let menu = sender as? Menu
+                vc.menu = menu
+            }
+        }
+    }
 }
 
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
@@ -38,13 +47,21 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
             cell.menu = itemMenuArray[indexPath.row]
             
             
-          return cell
+            return cell
         }
         return UICollectionViewCell()
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let menu = itemMenuArray[indexPath.row]
+        self.performSegue(withIdentifier: "moveToDetail", sender: menu)
+        
+        
     }
     
     

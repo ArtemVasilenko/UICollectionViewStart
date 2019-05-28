@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC48597C229D3B84000F87BE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48597B229D3B84000F87BE /* DetailViewController.swift */; };
 		AC7CD21D229D1C8100AC9966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CD21C229D1C8100AC9966 /* AppDelegate.swift */; };
 		AC7CD21F229D1C8100AC9966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CD21E229D1C8100AC9966 /* ViewController.swift */; };
 		AC7CD222229D1C8100AC9966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7CD220229D1C8100AC9966 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC48597B229D3B84000F87BE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		AC7CD219229D1C8100AC9966 /* UICollectionViewStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7CD21C229D1C8100AC9966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC7CD21E229D1C8100AC9966 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				AC7CD21E229D1C8100AC9966 /* ViewController.swift */,
 				AC7CD230229D1EBB00AC9966 /* Menu.swift */,
 				AC7CD220229D1C8100AC9966 /* Main.storyboard */,
+				AC48597B229D3B84000F87BE /* DetailViewController.swift */,
 				AC7CD232229D259E00AC9966 /* Images.xcassets */,
 				AC7CD22E229D1D7E00AC9966 /* MyCollectionViewCell.swift */,
 				AC7CD225229D1C8400AC9966 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				AC7CD21F229D1C8100AC9966 /* ViewController.swift in Sources */,
 				AC7CD21D229D1C8100AC9966 /* AppDelegate.swift in Sources */,
+				AC48597C229D3B84000F87BE /* DetailViewController.swift in Sources */,
 				AC7CD231229D1EBB00AC9966 /* Menu.swift in Sources */,
 				AC7CD22F229D1D7E00AC9966 /* MyCollectionViewCell.swift in Sources */,
 			);
